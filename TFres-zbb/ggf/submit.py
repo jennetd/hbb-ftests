@@ -15,18 +15,10 @@ def main():
     elif "2018" in thisdir:
         year = "2018"
 
-    cat = "vbf"
-    if "vbfhi" in thisdir:
-        cat = "vbfhi"
-    elif "vbflo" in thisdir:
-        cat = "vbflo"
-    elif "ggf" in thisdir:
-        cat = "ggf"
-
     parser = argparse.ArgumentParser(description='F-test batch submit')
     parser.add_argument('-p','--pt',nargs='+',help='pt of baseline')
     parser.add_argument('-r','--rho',nargs='+',help='rho of baseline')
-    parser.add_argument('-n','--njobs',nargs='+',help='number of 100 toy jobs to submit')
+    parser.add_argument('-n','--njobs',nargs='+',help='number of 50 toy jobs to submit')
     args = parser.parse_args()
 
     pt = int(args.pt[0])
@@ -36,10 +28,10 @@ def main():
     loc_base = os.environ['PWD']
     logdir = 'logs'
 
-    tag = "pt" + str(pt) + "rho" + str(rho)
+    tag = year+"_ggf_pt" + str(pt) + "rho" + str(rho)
     script = 'run-ftest.sh'
 
-    homedir = '/store/user/jennetd/f-tests/hbb-f-tests-res/'+cat+'/'+year+'/'
+    homedir = '/store/user/jennetd/zbb-f-tests-unblinded/'
     outdir = homedir + tag 
 
     # make local directory
@@ -49,15 +41,21 @@ def main():
     print('CONDOR work dir: ' + homedir)
     os.system('mkdir -p /eos/uscms'+outdir)
 
+    transferfiles = "compare.py,pt" + str(pt) + "rho" + str(rho)
+
+    alternatives = []
+    alternatives += ["pt"+str(pt+1)+"rho"+str(rho)]
+    alternatives += ["pt"+str(pt)+"rho"+str(rho+1)]
+
+    alternatives = list(set(alternatives))
+    for a in alternatives:
+        transferfiles += ","+a
+
     for i in range(0,njobs):
         prefix = tag+"_"+str(i)
         print('Submitting '+prefix)
 
         condor_templ_file = open("submit.templ.condor")
-
-        transferfiles = "compare.py,pt" + str(pt) + "rho" + str(rho) + ",pt" + str(pt+1) + "rho" + str(rho) + ",pt" + str(pt) + "rho" +  str(rho+1)
-        if "vbf" in cat:
-            transferfiles = "compare.py,pt" + str(pt) + "rho" + str(rho) + ",pt" + str(pt) + "rho" +  str(rho+1)
 
         submitargs = str(pt) + " " + str(rho) + " " + outdir + " " + str(i)
     
