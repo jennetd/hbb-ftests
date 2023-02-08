@@ -33,11 +33,13 @@ if __name__ == '__main__':
     elif "2018" in thisdir:
         year = "2018"
 
-    cat = 'ggf'
+    cat = 'vbf'
     if 'vbfhi' in thisdir:
         cat = 'vbfhi'
     elif 'vbflo' in thisdir:
         cat = 'vbflo'
+    elif 'ggf' in thisdir:
+        cat = 'ggf'
 
     thisdir = os.getcwd().split("/")[-1]
     baseline = thisdir.split("_vs_")[0]

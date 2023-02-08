@@ -59,8 +59,7 @@ if __name__ == '__main__':
             combine_cmd = "combineTool.py -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root \
             --snapshotName MultiDimFit --bypassFrequentistFit \
             --setParameters r=0 --freezeParameters r \
-            -n \"Observed\" --algo \"saturated\" \
-            --cminDefaultMinimizerStrategy 0"  
+            -n \"Observed\" --algo \"saturated\" --cminDefaultMinimizerStrategy 0"
             os.system(combine_cmd)
 
             os.chdir("../")
