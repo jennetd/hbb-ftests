@@ -1,4 +1,10 @@
-Make sub-directories here corresponding to each data taking period. 
+Update make_each_ptrho.py to copy rootfiles and other relevant stuff from your desired area.
+Look for this line:
+
+```
+# You will have to change this                                                                                      
+linkdir="/uscms/home/jennetd/nobackup/hbb-prod-modes/CMSSW_10_2_13/src/vbf-ul/main-vbf/unblinding/"
+```
 
 Using 2017 as an example:
 ``` 

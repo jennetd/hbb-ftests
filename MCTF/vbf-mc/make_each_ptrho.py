@@ -24,6 +24,7 @@ if __name__ == '__main__':
                 os.mkdir(thedir)
             os.chdir(thedir)
 
+            # You will have to change this
             linkdir="/uscms/home/jennetd/nobackup/hbb-prod-modes/CMSSW_10_2_13/src/vbf-ul/main-vbf/unblinding/"
 
             os.system("ln -s "+linkdir+year+"/signalregion.root .")
