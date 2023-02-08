@@ -2,9 +2,7 @@ Make sub-directories here corresponding to each data taking period.
 
 Using 2017 as an example:
 ``` 
-mkdir 2017
-cd 2017
-ln -s ../make_each_ptrho.py .
+cd 2017-mc
 python make_each_ptrho.py
 ```
 
