@@ -5,14 +5,17 @@ import ROOT
 import matplotlib.pyplot as plt
 from scipy.stats import f
 import matplotlib.pyplot as plt
-fig, ax = plt.subplots(1, 1)
+#fig, ax = plt.subplots(1, 1)
 
 nbins=23*6
 
 def Ftest(lambda1,lambda2,p1,p2,nbins):
 
+    # Compare the goodness of fit between the two models
     if lambda1 < lambda2:
-        return -2
+        #Fail fit, Goodness of fit is not better with the higher polynomial
+        #Might happen more than you think
+        return -2 
 
     numerator = -2.0*np.log(1.0*lambda1/lambda2)/(p2-p1)
     denominator = -2.0*np.log(lambda2)/(nbins-p2)
@@ -33,13 +36,9 @@ if __name__ == '__main__':
     elif "2018" in thisdir:
         year = "2018"
 
-    cat = 'vbf'
-    if 'vbfhi' in thisdir:
-        cat = 'vbfhi'
-    elif 'vbflo' in thisdir:
-        cat = 'vbflo'
-    elif 'ggf' in thisdir:
-        cat = 'ggf'
+    cat = 'VH Light'
+    if 'vh-charm-mc' in thisdir:
+        cat = 'VH Charm'
 
     thisdir = os.getcwd().split("/")[-1]
     baseline = thisdir.split("_vs_")[0]
