@@ -55,22 +55,34 @@ if __name__ == '__main__':
     lambda1_toys = []
     lambda2_toys = []
 
-    seeds = [123487,123587,123687,123787,123887,123987,124087,124187,124287,124387]
-    for s in seeds:
+    # assign directory
+    directory = './'
+ 
+    # iterate over files in
+    # that directory
+    for filename in os.listdir(directory):
+        f = os.path.join(directory, filename)
+        
+        # checking if it is a file
+        if os.path.isfile(f):
+            
+            # baseline gof
+            if "baseline" in f:   
+                print(f)                                                                                           
+                infile1 = ROOT.TFile.Open(f)
+                tree1= infile1.Get("limit")
+                for j in range(tree1.GetEntries()):
+                    tree1.GetEntry(j)
+                    lambda1_toys += [getattr(tree1,"limit")]
 
-        # baseline gof                                                                                                 
-        infile1 = ROOT.TFile.Open("higgsCombineToys.baseline.GoodnessOfFit.mH125."+str(s)+".root")
-        tree1= infile1.Get("limit")
-        for j in range(tree1.GetEntries()):
-            tree1.GetEntry(j)
-            lambda1_toys += [getattr(tree1,"limit")]
-
-        # alternative gof
-        infile2 = ROOT.TFile.Open("higgsCombineToys.alternative.GoodnessOfFit.mH125."+str(s)+".root")
-        tree2 = infile2.Get("limit")
-        for j in range(tree2.GetEntries()):
-            tree2.GetEntry(j)
-            lambda2_toys +=[getattr(tree2,"limit")]
+            elif "alternative" in f:
+                print(f)
+                # alternative gof
+                infile2 = ROOT.TFile.Open(f)
+                tree2 = infile2.Get("limit")
+                for j in range(tree2.GetEntries()):
+                    tree2.GetEntry(j)
+                    lambda2_toys +=[getattr(tree2,"limit")]
 
     # Caculate the F-test for toys
     f_dist = [Ftest(lambda1_toys[j],lambda2_toys[j],p1,p2,nbins=nbins) for j in range(len(lambda1_toys))]
@@ -118,4 +130,4 @@ if __name__ == '__main__':
 
     plt.savefig(thisdir+".png",bbox_inches='tight')
     plt.savefig(thisdir+".pdf",bbox_inches='tight')
-    plt.show()
+    # plt.show()

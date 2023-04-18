@@ -31,13 +31,13 @@ if __name__ == '__main__':
             os.system("ln -s ../../make_cards_qcd.py .")
 
             # Create your json files of initial values
-            if not os.path.isfile("initial_vals_light.json"):
+            if not os.path.isfile("initial_vals_charm.json"):
 
                 initial_vals = (np.full((pt+1,rho+1),1)).tolist()
                 thedict = {}
                 thedict["initial_vals"] = initial_vals
 
-                with open("initial_vals_light.json", "w") as outfile:
+                with open("initial_vals_charm.json", "w") as outfile:
                     json.dump(thedict,outfile)
 
             # Create the workspace
