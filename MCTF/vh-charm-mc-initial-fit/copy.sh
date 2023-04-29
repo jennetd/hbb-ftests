@@ -14,7 +14,7 @@ echo $tag
 
 if [ `ls *GoodnessOfFit*.root | wc -l` -lt 1 ]
 then
-    cp  /eos/uscms/store/user/dhoang/f-tests/hbb-f-tests-pf/charm-mc/${year}/*/${tag}*/*GoodnessOfFit*.root .
+    cp  /eos/uscms/store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/charm-mc/${year}/*/${tag}*/*GoodnessOfFit*.root .
 fi
 
 rm *total.root

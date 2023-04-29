@@ -10,6 +10,7 @@ elif [[ "$PWD" == *"2018"* ]]; then
 fi
 
 tag=`echo $PWD | sed 's:.*/::'`
+echo "TESTESTSTSA"
 echo $tag
 
 if [ `ls *GoodnessOfFit*.root | wc -l` -lt 1 ]

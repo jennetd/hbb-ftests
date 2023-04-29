@@ -19,17 +19,20 @@ echo "Arguments passed to the job: "
 echo $1
 echo $2
 echo $3
-echo $4
 
 echo "Run my code"
-eosout=$3
-index=$4
+eosout=$2
+index=$3
 
-python compare.py --pt=$1 --rho=$2 --ntoys=50 --index=$4
+python compare.py --p=$1 --ntoys=50 --index=$3
 
 ls
 
-dirs=`ls | grep pt$1rho$2_vs_`
+dirs=`ls | grep poly$1_vs_`
+
+echo "All the dirs: "
+echo $dirs
+
 for d in $dirs;
 do
     #move output to eos

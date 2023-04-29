@@ -44,13 +44,15 @@ if __name__ == '__main__':
     baseline = thisdir.split("_vs_")[0]
     alt = thisdir.split("_vs_")[1]
 
-    pt1 = int(baseline.split("rho")[0].split("pt")[1])
-    rho1 = int(baseline.split("rho")[1])
-    p1 = (rho1+1)*(pt1+1)
+    print("Baseline", baseline)
+    print("Alternative", alt)
 
-    pt2 = int(alt.split("rho")[0].split("pt")[1])
-    rho2 = int(alt.split("rho")[1])
-    p2 = (rho2+1)*(pt2+1)
+    #What are the p1 and p2
+    poly1 = int(baseline[-1]) #Last letter is the polynomial order
+    p1 = poly1+1
+
+    poly2 = int(alt[-1]) 
+    p2 = poly2+1
 
     lambda1_toys = []
     lambda2_toys = []

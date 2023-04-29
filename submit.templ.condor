@@ -6,8 +6,8 @@ should_transfer_files   = YES
 transfer_input_files    = TRANSFERFILES
 when_to_transfer_output = ON_EXIT_OR_EVICT
 request_memory          = 2000
-#use_x509userproxy       = true
-#x509userproxy           = /uscms/home/jennetd/x509up_u46881
+use_x509userproxy       = true
+x509userproxy           = /uscms/home/dhoang/x509up_u55495
 
 output                  = logs/PREFIX.out
 error                   = logs/PREFIX.err

@@ -21,31 +21,27 @@ def GoF(infile, ntoys, seed=123456):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='F-test')
-    parser.add_argument('-p','--pt',nargs='+',help='pt of ggf baseline')
-    parser.add_argument('-r','--rho',nargs='+',help='rho of ggf baseline')
+    parser.add_argument('-p','--poly',nargs='+',help='polynomial order')
     parser.add_argument('-n','--ntoys',nargs='+',help='number of toys')
     parser.add_argument('-i','--index',nargs='+',help='index for random seed')
     args = parser.parse_args()
 
-    pt = int(args.pt[0])
-    rho = int(args.rho[0])
+    poly = int(args.poly[0])
     ntoys = int(args.ntoys[0])
     seed = 123456+int(args.index[0])*100+31
     
-    baseline = "pt"+str(pt)+"rho"+str(rho)
+    baseline = "poly{}".format(poly)
     alternatives = []
     pvalues = []
-
-#    alternatives += ["pt"+str(pt+1)+"rho"+str(rho)]
-    alternatives += ["pt"+str(pt)+"rho"+str(rho+1)]
+    
+    alternatives += ["poly{}".format(poly+1)]
     
     alternatives = list(set(alternatives))
 
     for i,alt in enumerate(alternatives):
 
-        pt_alt = int(alt.split("rho")[0].split("pt")[1])
-        rho_alt = int(alt.split("rho")[1])
-        print(pt_alt, rho_alt)
+        poly_alt = int(alt.split("poly")[1])
+        print(poly)
         
         print(alt)
         thedir = baseline+"_vs_"+alt

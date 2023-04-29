@@ -48,7 +48,177 @@ def get_template(sName, passed, ptbin, cat, obs, syst, muon=False):
 
     return (np.array(sumw)[1:], obs.binning, obs.name, np.array(sumw2)[1:])
 
-def ggfvbf_rhalphabet(tmpdir,
+def fit_fail_templ_QCD(sName, passed, ptbin, cat, obs, syst, muon=False):
+
+    f = ROOT.TFile.Open('signalregion.root')
+
+    if muon:
+        f = ROOT.TFile.Open('{}/muonCR.root')
+
+    #Determind the right branch
+    name = 'fail_'
+
+    if passed:
+        name = 'pass_'
+
+    if cat == "charm":
+        name = 'c_' + name
+    elif cat == 'light':
+        name = 'l_' + name
+
+    name += sName+'_'+syst
+
+    print("Extracting ... ", name)
+    h = f.Get(name)
+
+    #Perform the fit
+    if not h:
+        raise Exception("Can't retrieve the histogram from root file")
+
+    #Set poly nomial order from the json file
+    with open('initial_vals_poly_{}.json'.format(cat)) as f:
+        initial_vals_poly = np.array(json.load(f)['initial_vals'])
+
+    print("Initial poly shape: ",  initial_vals_poly.shape)
+    
+    #Create the fit poly nomial
+    tf_string = "[0]"
+    for i in range(initial_vals_poly.shape[0] - 1):
+        tf_string += "+ [{}]".format(i+1) + "*x"*(i+1) 
+    print("Initial fit function is : ", tf_string)
+
+    fit_function = ROOT.TF1("fa1", tf_string, 40,200)
+    h.Fit(fit_function, "Q")
+
+    par = fit_function.GetParameters()
+    print('fit results: ', par)
+
+    fit_result = h.GetFunction("fa1")
+    
+    #error band
+    fit_error = ROOT.TH1D("hint", "Fitted function", 23, 40, 201)
+    ROOT.TVirtualFitter.GetFitter().GetConfidenceIntervals(fit_error)
+
+    #Plot the result and get the result
+    msd = []
+    y_value = []
+    y_err = []
+
+    y_value_og = []
+    y_err_og = []
+
+    #To return to the template
+    sumw = []
+    sumw2 = []
+
+    for i in range(1,h.GetNbinsX()+1):
+
+        msd_bin_center = h.GetXaxis().GetBinCenter(i)
+        msd.append(msd_bin_center)
+
+        y_value_og.append(h.GetBinContent(i))
+        y_err_og.append(h.GetBinError(i))
+
+        fitted_qcd = fit_result(msd_bin_center)
+        y_value.append(fitted_qcd)
+        y_err.append(fit_error.GetBinError(i))
+
+        sumw += [fitted_qcd]
+        sumw2 += [fit_error.GetBinError(i)*fit_error.GetBinError(i)]
+
+    # plt.errorbar(msd, y_value_og, yerr=y_err_og, fmt='_', label='Bin value')
+    # plt.plot(msd, y_value,label= 'Fitted values')
+    # plt.fill_between(msd, np.asarray(y_value) - np.asarray(y_err), np.asarray(y_value) + np.asarray(y_err), alpha=0.2, label='95% CL', color='C1')
+    # plt.xlabel(r' Jet 1 $m_{sd}$')
+    # plt.ylabel('Events')
+    # plt.legend()
+    # plt.savefig("{}_{}.pdf".format(year,name))
+    # plt.close()
+
+    return (np.array(sumw)[1:], obs.binning, obs.name, np.array(sumw2)[1:])
+
+def get_initial_QCD(sName, passed, ptbin, cat, obs, syst, muon=False):
+
+    f = ROOT.TFile.Open('signalregion.root')
+
+    if muon:
+        f = ROOT.TFile.Open('muonCR.root')
+
+    #Determind the right branch
+    name = 'fail_'
+
+    if passed:
+        name = 'pass_'
+
+    if cat == "charm":
+        name = 'c_' + name
+    elif cat == 'light':
+        name = 'l_' + name
+
+    name += sName+'_'+syst
+
+    print("Extracting ... ", name)
+    h = f.Get(name)
+
+    #Perform the fit
+    if not h:
+        raise Exception("Can't retrieve the histogram from root file")
+
+    #Set poly nomial order from the json file
+    with open('initial_vals_poly_{}.json'.format(cat)) as f:
+        initial_vals_poly = np.array(json.load(f)['initial_vals'])
+
+    print("Initial poly shape: ",  initial_vals_poly.shape)
+    
+    #Create the fit poly nomial
+    tf_string = "[0]"
+    for i in range(initial_vals_poly.shape[0] - 1):
+        tf_string += "+ [{}]".format(i+1) + "*x"*(i+1) 
+    print("Initial fit function is : ", tf_string)
+
+    fit_function = ROOT.TF1("fa1", tf_string, 40,200)
+    h.Fit(fit_function, "Q")
+
+    par = fit_function.GetParameters()
+    print('fit results: ', par)
+
+    fit_result = h.GetFunction("fa1")
+    
+    #error band
+    fit_error = ROOT.TH1D("hint", "Fitted function", 23, 40, 201)
+    ROOT.TVirtualFitter.GetFitter().GetConfidenceIntervals(fit_error)
+
+    #Plot the result and get the result
+    msd = []
+    y_value = []
+    y_err = []
+
+    y_value_og = []
+    y_err_og = []
+
+    #To return to the template
+    sumw = []
+    sumw2 = []
+
+    for i in range(1,h.GetNbinsX()+1):
+
+        msd_bin_center = h.GetXaxis().GetBinCenter(i)
+        msd.append(msd_bin_center)
+
+        y_value_og.append(h.GetBinContent(i))
+        y_err_og.append(h.GetBinError(i))
+
+        fitted_qcd = fit_result(msd_bin_center)
+        y_value.append(fitted_qcd)
+        y_err.append(fit_error.GetBinError(i))
+
+        sumw += [fitted_qcd]
+        sumw2 += [fit_error.GetBinError(i)*fit_error.GetBinError(i)]
+
+
+    return np.array(sumw)[1:]
+    
+def vh_rhalphabet(tmpdir,
                     throwPoisson = True,
                     fast=0):
     """ 
@@ -105,12 +275,8 @@ def ggfvbf_rhalphabet(tmpdir,
                     qcdmodel.addChannel(passCh)
 
                     # QCD templates from file                           
-                    if cat == "vbf":
-                        failTempl = get_template('QCD', 0, mjjbin+1, cat, obs=msd, syst='nominal')
-                        passTempl = get_template('QCD', 1, mjjbin+1, cat, obs=msd, syst='nominal')
-                    else: 
-                        failTempl = get_template('QCD', 0, ptbin+1, cat, obs=msd, syst='nominal')
-                        passTempl = get_template('QCD', 1, ptbin+1, cat, obs=msd, syst='nominal')
+                    failTempl = fit_fail_templ_QCD('QCD', 0, ptbin+1, cat, obs=msd, syst='nominal')
+                    passTempl = get_template('QCD', 1, ptbin+1, cat, obs=msd, syst='nominal')
 
                     failCh.setObservation(failTempl, read_sumw2=True)
                     passCh.setObservation(passTempl, read_sumw2=True)
@@ -121,11 +287,12 @@ def ggfvbf_rhalphabet(tmpdir,
             qcdeff = qcdpass / qcdfail
             print('Inclusive P/F from Monte Carlo = ' + str(qcdeff))
 
-            # initial values                                                                 
+            #Initial values                                                                 
             print('Initial fit values read from file initial_vals*')
             with open('initial_vals_'+cat+'.json') as f:
                 initial_vals = np.array(json.load(f)['initial_vals'])
-            print(initial_vals)
+
+            print("Initial values: {}".format(initial_vals))
 
             tf_MCtempl = rl.BasisPoly("tf_MCtempl_"+cat+year,
                                       (initial_vals.shape[0]-1,initial_vals.shape[1]-1),
@@ -268,7 +435,8 @@ def ggfvbf_rhalphabet(tmpdir,
                 passCh = model['ptbin%dmjjbin%d%spass%s' % (ptbin, mjjbin, cat, year)]
 
                 qcdparams = np.array([rl.IndependentParameter('qcdparam_ptbin%dmjjbin%d%s%s_%d' % (ptbin, mjjbin, cat, year, i), 0) for i in range(msd.nbins)])
-                initial_qcd = failCh.getObservation()[0].astype(float)  # was integer, and numpy complained about subtracting float from it                                
+                initial_qcd = get_initial_QCD('QCD', 0, 1, cat, obs=msd, syst='nominal')  # was integer, and numpy complained about subtracting float from it   
+                                             
                 if np.any(initial_qcd < 0.):
                     raise ValueError('initial_qcd negative for some bins..', initial_qcd)
 
@@ -300,5 +468,5 @@ if __name__ == '__main__':
     if not os.path.exists('output'):
         os.mkdir('output')
 
-    ggfvbf_rhalphabet('output',year)
+    vh_rhalphabet('output',year)
 

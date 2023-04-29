@@ -13,13 +13,12 @@ if __name__ == '__main__':
     elif "2018" in thisdir:
         year = "2018"
 
-    for pt in range(0,1):
-        for rho in range(0,3):
+    for poly in range(0,5):
 
-            print("pt = "+str(pt)+", rho = "+str(rho))
+            print("Polynomial order: {}".format(poly))
 
             # Make the directory and go there
-            thedir = "pt"+str(pt)+"rho"+str(rho)
+            thedir = "poly{}".format(poly)
             if not os.path.isdir(thedir):
                 os.mkdir(thedir)
             os.chdir(thedir)
@@ -31,13 +30,26 @@ if __name__ == '__main__':
             os.system("ln -s ../../make_cards_qcd.py .")
 
             # Create your json files of initial values
-            if not os.path.isfile("initial_vals_charm.json"):
-
-                initial_vals = (np.full((pt+1,rho+1),1)).tolist()
+            # for the polynomial fit
+            poly_file = "initial_vals_poly_charm.json"
+            if not os.path.isfile(poly_file):
+                initial_vals = (np.full(poly+1,1)).tolist()
+                thedict = {}
+                thedict["initial_vals"] = initial_vals
+                with open(poly_file, "w") as outfile:
+                    json.dump(thedict,outfile)
+            
+            # Create your json files of initial values
+            # For the rho transfer factor fit, this has already been determined
+            rho_file = "initial_vals_charm.json"
+            if not os.path.isfile(rho_file):
+                
+                #It's a constant for every charm category
+                initial_vals = (np.full((1,1),1)).tolist() #is it correct here?
                 thedict = {}
                 thedict["initial_vals"] = initial_vals
 
-                with open("initial_vals_charm.json", "w") as outfile:
+                with open(rho_file, "w") as outfile:
                     json.dump(thedict,outfile)
 
             # Create the workspace
