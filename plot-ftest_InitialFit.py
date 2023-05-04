@@ -7,7 +7,7 @@ from scipy.stats import f
 import matplotlib.pyplot as plt
 #fig, ax = plt.subplots(1, 1)
 
-nbins=23*6
+nbins=23
 
 def Ftest(lambda1,lambda2,p1,p2,nbins):
 
@@ -23,7 +23,7 @@ def Ftest(lambda1,lambda2,p1,p2,nbins):
     if math.isnan(numerator/denominator):
         return -1
 
-    return numerator/denominator
+    return (numerator/denominator)*1e+5 #Initial fit F-values are too small
 
 if __name__ == '__main__':
 
@@ -49,10 +49,12 @@ if __name__ == '__main__':
 
     #What are the p1 and p2
     poly1 = int(baseline[-1]) #Last letter is the polynomial order
-    p1 = poly1+1
+    p1 = poly1+1 #order  of poly + constant terms
 
     poly2 = int(alt[-1]) 
     p2 = poly2+1
+
+    print("p1, p2: ({},{})".format(p1,p2))
 
     lambda1_toys = []
     lambda2_toys = []
@@ -109,8 +111,8 @@ if __name__ == '__main__':
     pvalue = 1.0*len([y for y in f_dist if y>f_obs])/ntoys_good
     print(pvalue)
     
-    # maxval = max(np.max(f_dist),f_obs)+1
-    maxval = 30
+    #maxval = max(np.max(f_dist),f_obs)+1
+    maxval = 3
 
     ashist = plt.hist(f_dist,bins=np.linspace(0,maxval,25),histtype='step',color='black')
     ymax = 1.2*max(ashist[0])
@@ -123,13 +125,13 @@ if __name__ == '__main__':
     print(ntoys_good)
     plt.plot(x, ntoys_good*0.2*f.pdf(x, p2-p1, nbins-p2),color='blue', label='F pdf')
 
-    plt.text(3,ymax*0.9,year + " " + cat,fontsize='large')
-    plt.text(3,ymax*0.8,baseline + " vs. " + alt,fontsize='large')
-    plt.text(3,ymax*0.7,"p-value = {:.2f}".format(pvalue),fontsize='large')
+    plt.text(1.5,ymax*0.9,year + " " + cat,fontsize='large')
+    plt.text(1.5,ymax*0.8,baseline + " vs. " + alt,fontsize='large')
+    plt.text(1.5,ymax*0.7,"p-value = {:.2f}".format(pvalue),fontsize='large')
 
     plt.legend(loc='center right',frameon=False)
     plt.xlabel("F-statistic")
 
-    plt.savefig(thisdir+".png",bbox_inches='tight')
+    #plt.savefig(thisdir+".png",bbox_inches='tight')
     plt.savefig(thisdir+".pdf",bbox_inches='tight')
     # plt.show()
