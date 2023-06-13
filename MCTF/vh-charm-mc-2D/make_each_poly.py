@@ -14,11 +14,11 @@ if __name__ == '__main__':
         year = "2018"
 
     for poly in range(0,6):
-
-            print("Polynomial order: {}".format(poly))
+        for rho in range(0,3):
+            print('Poly Order: {}, Rho Order: {}'.format(poly, rho))
 
             # Make the directory and go there
-            thedir = "poly{}".format(poly)
+            thedir = "poly{}rho{}".format(poly, rho)
             if not os.path.isdir(thedir):
                 os.mkdir(thedir)
             os.chdir(thedir)
@@ -45,7 +45,7 @@ if __name__ == '__main__':
             if not os.path.isfile(rho_file):
                 
                 #It's a constant for every charm category
-                initial_vals = (np.full((1,1),1)).tolist() #is it correct here?
+                initial_vals = (np.full((1,rho+1),1)).tolist()
                 thedict = {}
                 thedict["initial_vals"] = initial_vals
 

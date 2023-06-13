@@ -15,15 +15,19 @@ def Ftest(lambda1,lambda2,p1,p2,nbins):
     if lambda1 < lambda2:
         #Fail fit, Goodness of fit is not better with the higher polynomial
         #Might happen more than you think
+        print("lambda1", lambda1)
+        print("lambda2", lambda2)
+        print("----------------")
+        #Want to know the index of the toy to try and fit it later. 
         return -2 
 
-    numerator = -2.0*np.log(1.0*lambda1/lambda2)/(p2-p1)
-    denominator = -2.0*np.log(lambda2)/(nbins-p2)
+    numerator = -2.0*(lambda1 - lambda2)/(p2-p1)
+    denominator = -2.0*lambda2/(nbins-p2)
 
     if math.isnan(numerator/denominator):
         return -1
 
-    return (numerator/denominator)*1e+5 #Initial fit F-values are too small
+    return (numerator/denominator)#*1e+5 #Initial fit F-values are too small
 
 if __name__ == '__main__':
 
@@ -133,5 +137,5 @@ if __name__ == '__main__':
     plt.xlabel("F-statistic")
 
     #plt.savefig(thisdir+".png",bbox_inches='tight')
-    plt.savefig(thisdir+".pdf",bbox_inches='tight')
+    plt.savefig("../plots/{}_{}_vs_{}.pdf".format(year, poly1, poly2),bbox_inches='tight')
     # plt.show()

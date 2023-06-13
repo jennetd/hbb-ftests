@@ -17,8 +17,8 @@ def Ftest(lambda1,lambda2,p1,p2,nbins):
         #Might happen more than you think
         return -2 
 
-    numerator = -2.0*np.log(1.0*lambda1/lambda2)/(p2-p1)
-    denominator = -2.0*np.log(lambda2)/(nbins-p2)
+    numerator = -2.0*(lambda1-lambda2)/(p2-p1)
+    denominator = -2.0*lambda2/(nbins-p2)
 
     if math.isnan(numerator/denominator):
         return -1

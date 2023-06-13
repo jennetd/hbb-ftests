@@ -31,7 +31,7 @@ if __name__ == '__main__':
 
             # Create your json files of initial values
             # for the polynomial fit
-            poly_file = "initial_vals_poly_charm.json"
+            poly_file = "initial_vals_poly_light.json"
             if not os.path.isfile(poly_file):
                 initial_vals = (np.full(poly+1,1)).tolist()
                 thedict = {}
@@ -41,11 +41,12 @@ if __name__ == '__main__':
             
             # Create your json files of initial values
             # For the rho transfer factor fit, this has already been determined
-            rho_file = "initial_vals_charm.json"
+            rho_file = "initial_vals_light.json"
             if not os.path.isfile(rho_file):
                 
                 #It's a constant for every charm category
-                initial_vals = (np.full((1,1),1)).tolist() #is it correct here?
+                #First order for 2018 light category
+                initial_vals = (np.full((1,2),1)).tolist() #is it correct here?
                 thedict = {}
                 thedict["initial_vals"] = initial_vals
 

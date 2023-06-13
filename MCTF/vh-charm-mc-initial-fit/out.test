@@ -1,0 +1,2440 @@
+The current path of this script is: /uscms_data/d3/dhoang/VH_analysis/CMSSW_10_2_13/src/hbb-ftests/MCTF/vh-charm-mc-initial-fit
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (1,)
+Initial fit function is :  [0]
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.010212700081399505
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = 333.3488692588
+MnSeedGenerator: Initial state:   - FCN =   333.3488692588 Edm =     0.142105 NCalls =     93
+MnSeedGenerator: run Hesse - new state:   - FCN =   333.3488692588 Edm =     0.142105 NCalls =    445
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =   333.3488692588 Edm =     0.142105 NCalls =    445
+VariableMetric: Iteration #   0 - FCN =   333.3488692588 Edm =     0.142105 NCalls =    445
+VariableMetric: Iteration #   1 - FCN =   333.2116291278 Edm =  0.000442065 NCalls =    492
+VariableMetric: After Hessian   - FCN =   333.2116291278 Edm =  0.000394018 NCalls =    848
+VariableMetric: Iteration #   2 - FCN =   333.2116291278 Edm =  0.000394018 NCalls =    848
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = 333.21162912780386
+Edm   = 0.000394017767558769343
+Nfcn  = 848
+qcdparam_ptbin0mjjbin0charm2016_0	  = 0.00322869	 +/-  0.191915	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.014119	 +/-  0.190667	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.007631	 +/-  0.193168	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.00731856	 +/-  0.193132	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.00817694	 +/-  0.193231	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.00395191	 +/-  0.192743	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.00471048	 +/-  0.191745	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = -0.00591076	 +/-  0.192969	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.0102911	 +/-  0.191105	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.00815851	 +/-  0.193229	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.0068093	 +/-  0.193073	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00450625	 +/-  0.192807	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.0081907	 +/-  0.193233	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.00843127	 +/-  0.193261	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.0957522	 +/-  0.181566	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.491106	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (1,)
+Initial fit function is :  [0]
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4924
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (2,)
+Initial fit function is :  [0]+ [1]*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.003814439881758155
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -379.095621393
+MnSeedGenerator: Initial state:   - FCN =   -379.095621393 Edm =    0.0467714 NCalls =    111
+MnSeedGenerator: run Hesse - new state:   - FCN =   -379.095621393 Edm =    0.0467714 NCalls =    463
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =   -379.095621393 Edm =    0.0467714 NCalls =    463
+VariableMetric: Iteration #   0 - FCN =   -379.095621393 Edm =    0.0467714 NCalls =    463
+VariableMetric: Iteration #   1 - FCN =  -379.1418698356 Edm =  1.53088e-05 NCalls =    510
+VariableMetric: After Hessian   - FCN =  -379.1418698356 Edm =  1.47112e-05 NCalls =    902
+VariableMetric: Iteration #   2 - FCN =  -379.1418698356 Edm =  1.47112e-05 NCalls =    902
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -379.1418698355576
+Edm   = 1.47111783627379198e-05
+Nfcn  = 902
+qcdparam_ptbin0mjjbin0charm2016_0	  = -0.0013027	 +/-  0.145919	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.00274518	 +/-  0.146635	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.00396554	 +/-  0.159464	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00425044	 +/-  0.161628	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.00351279	 +/-  0.163984	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.0038562	 +/-  0.166748	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.00102537	 +/-  0.169663	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.00373538	 +/-  0.173569	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00358556	 +/-  0.177938	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00342348	 +/-  0.18327	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.00923954	 +/-  0.188613	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = -0.000251957	 +/-  0.198532	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.00167793	 +/-  0.147681	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00281803	 +/-  0.211452	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.0025408	 +/-  0.231465	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.00495054	 +/-  0.149111	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.00433347	 +/-  0.150221	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00329243	 +/-  0.151394	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00477668	 +/-  0.152817	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.00457435	 +/-  0.154255	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.0045777	 +/-  0.15584	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.044922	 +/-  0.154303	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.489542	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (2,)
+Initial fit function is :  [0]+ [1]*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4925
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (3,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0037854289836479096
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -430.5903481352
+MnSeedGenerator: Initial state:   - FCN =  -430.5903481352 Edm =    0.0490291 NCalls =    115
+MnSeedGenerator: run Hesse - new state:   - FCN =  -430.5903481352 Edm =    0.0490295 NCalls =    465
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -430.5903481352 Edm =    0.0490295 NCalls =    465
+VariableMetric: Iteration #   0 - FCN =  -430.5903481352 Edm =    0.0490295 NCalls =    465
+VariableMetric: Iteration #   1 - FCN =  -430.6387966867 Edm =   1.7802e-05 NCalls =    512
+VariableMetric: After Hessian   - FCN =  -430.6387966867 Edm =   1.7073e-05 NCalls =    906
+VariableMetric: Iteration #   2 - FCN =  -430.6387966867 Edm =   1.7073e-05 NCalls =    906
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -430.638796686674084
+Edm   = 1.70730063562447887e-05
+Nfcn  = 906
+qcdparam_ptbin0mjjbin0charm2016_0	  = -0.00185868	 +/-  0.143201	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.00199174	 +/-  0.144277	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.00382688	 +/-  0.161131	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00410753	 +/-  0.16388	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.0033097	 +/-  0.166832	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.00366995	 +/-  0.170214	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.000579674	 +/-  0.173702	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.00354923	 +/-  0.178224	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00340281	 +/-  0.183084	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00325245	 +/-  0.188726	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.0106361	 +/-  0.193761	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = 7.69446e-05	 +/-  0.203035	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.00112724	 +/-  0.145668	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00276551	 +/-  0.213421	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.0025838	 +/-  0.226362	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.00505512	 +/-  0.147438	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.004418	 +/-  0.148952	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00335547	 +/-  0.15055	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00476809	 +/-  0.152419	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.00453352	 +/-  0.154334	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.0045074	 +/-  0.156422	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.0464488	 +/-  0.155249	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.489534	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (3,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4925
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (4,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0037767955019306926
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -419.8147442351
+MnSeedGenerator: Initial state:   - FCN =  -419.8147442351 Edm =    0.0549016 NCalls =    117
+MnSeedGenerator: run Hesse - new state:   - FCN =  -419.8147442351 Edm =     0.054902 NCalls =    469
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -419.8147442351 Edm =     0.054902 NCalls =    469
+VariableMetric: Iteration #   0 - FCN =  -419.8147442351 Edm =     0.054902 NCalls =    469
+VariableMetric: Iteration #   1 - FCN =  -419.8688845498 Edm =   2.6732e-05 NCalls =    516
+VariableMetric: After Hessian   - FCN =  -419.8688845498 Edm =  2.55019e-05 NCalls =    908
+VariableMetric: Iteration #   2 - FCN =  -419.8688845498 Edm =  2.55019e-05 NCalls =    908
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -419.86888454978498
+Edm   = 2.55018830260464265e-05
+Nfcn  = 908
+qcdparam_ptbin0mjjbin0charm2016_0	  = -0.00239458	 +/-  0.140782	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.00152883	 +/-  0.14287	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.00365336	 +/-  0.163869	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00401115	 +/-  0.165771	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.00325998	 +/-  0.167532	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.00369626	 +/-  0.169407	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.000835075	 +/-  0.171134	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.0036964	 +/-  0.173631	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00360136	 +/-  0.176378	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00348713	 +/-  0.179955	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.00802173	 +/-  0.183739	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = -0.000661551	 +/-  0.192046	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.00101535	 +/-  0.145246	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00290551	 +/-  0.204702	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.00252872	 +/-  0.230374	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.0049958	 +/-  0.147984	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.00426766	 +/-  0.150402	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00308322	 +/-  0.152783	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00456716	 +/-  0.155287	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.00431242	 +/-  0.157606	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.00430251	 +/-  0.159834	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.0509039	 +/-  0.157977	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.489533	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (4,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4924
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (5,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.003760732336369711
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -425.8657916882
+MnSeedGenerator: Initial state:   - FCN =  -425.8657916882 Edm =    0.0555177 NCalls =    117
+MnSeedGenerator: run Hesse - new state:   - FCN =  -425.8657916882 Edm =    0.0555182 NCalls =    469
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -425.8657916882 Edm =    0.0555182 NCalls =    469
+VariableMetric: Iteration #   0 - FCN =  -425.8657916882 Edm =    0.0555182 NCalls =    469
+VariableMetric: Iteration #   1 - FCN =  -425.9205274815 Edm =  2.78215e-05 NCalls =    516
+VariableMetric: After Hessian   - FCN =  -425.9205274815 Edm =  2.65258e-05 NCalls =    908
+VariableMetric: Iteration #   2 - FCN =  -425.9205274815 Edm =  2.65258e-05 NCalls =    908
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -425.920527481502972
+Edm   = 2.65257745477944198e-05
+Nfcn  = 908
+qcdparam_ptbin0mjjbin0charm2016_0	  = -0.00234972	 +/-  0.14087	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.00151894	 +/-  0.142771	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.00360813	 +/-  0.164354	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00396802	 +/-  0.166363	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.00320856	 +/-  0.168138	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.0036576	 +/-  0.169922	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.000787626	 +/-  0.171439	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.00368102	 +/-  0.173623	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00360008	 +/-  0.17596	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00350001	 +/-  0.179056	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.00769539	 +/-  0.182381	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = -0.000773598	 +/-  0.190198	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.000966631	 +/-  0.145003	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00292867	 +/-  0.20277	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.00251254	 +/-  0.230836	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.00500349	 +/-  0.147645	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.00428145	 +/-  0.150034	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00310094	 +/-  0.152453	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00456218	 +/-  0.155058	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.004298	 +/-  0.157534	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.00427785	 +/-  0.159954	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.051365	 +/-  0.158242	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.489529	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (5,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4925
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2016
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (6,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x+ [5]*x*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  c_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.003746339739944775
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -430.9248349637
+MnSeedGenerator: Initial state:   - FCN =  -430.9248349637 Edm =    0.0558067 NCalls =    117
+MnSeedGenerator: run Hesse - new state:   - FCN =  -430.9248349637 Edm =    0.0558072 NCalls =    469
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -430.9248349637 Edm =    0.0558072 NCalls =    469
+VariableMetric: Iteration #   0 - FCN =  -430.9248349637 Edm =    0.0558072 NCalls =    469
+VariableMetric: Iteration #   1 - FCN =  -430.9798492632 Edm =  2.83811e-05 NCalls =    516
+VariableMetric: After Hessian   - FCN =  -430.9798492632 Edm =  2.70512e-05 NCalls =    908
+VariableMetric: Iteration #   2 - FCN =  -430.9798492632 Edm =  2.70512e-05 NCalls =    908
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -430.979849263172355
+Edm   = 2.70511631813168907e-05
+Nfcn  = 908
+qcdparam_ptbin0mjjbin0charm2016_0	  = -0.00229209	 +/-  0.141025	(limited)
+qcdparam_ptbin0mjjbin0charm2016_1	  = 0.00153405	 +/-  0.142753	(limited)
+qcdparam_ptbin0mjjbin0charm2016_10	  = -0.00357246	 +/-  0.16471	(limited)
+qcdparam_ptbin0mjjbin0charm2016_11	  = -0.00393031	 +/-  0.166885	(limited)
+qcdparam_ptbin0mjjbin0charm2016_12	  = -0.0031593	 +/-  0.168747	(limited)
+qcdparam_ptbin0mjjbin0charm2016_13	  = -0.00361791	 +/-  0.170511	(limited)
+qcdparam_ptbin0mjjbin0charm2016_14	  = -0.000728385	 +/-  0.171876	(limited)
+qcdparam_ptbin0mjjbin0charm2016_15	  = -0.00366115	 +/-  0.173788	(limited)
+qcdparam_ptbin0mjjbin0charm2016_16	  = -0.00359404	 +/-  0.175731	(limited)
+qcdparam_ptbin0mjjbin0charm2016_17	  = -0.00350898	 +/-  0.178342	(limited)
+qcdparam_ptbin0mjjbin0charm2016_18	  = 0.00740835	 +/-  0.181173	(limited)
+qcdparam_ptbin0mjjbin0charm2016_19	  = -0.000880433	 +/-  0.188447	(limited)
+qcdparam_ptbin0mjjbin0charm2016_2	  = 0.000938242	 +/-  0.144837	(limited)
+qcdparam_ptbin0mjjbin0charm2016_20	  = -0.00295461	 +/-  0.200815	(limited)
+qcdparam_ptbin0mjjbin0charm2016_21	  = -0.00249813	 +/-  0.231249	(limited)
+qcdparam_ptbin0mjjbin0charm2016_3	  = -0.00500883	 +/-  0.147361	(limited)
+qcdparam_ptbin0mjjbin0charm2016_4	  = -0.00429624	 +/-  0.149679	(limited)
+qcdparam_ptbin0mjjbin0charm2016_5	  = -0.00312521	 +/-  0.152086	(limited)
+qcdparam_ptbin0mjjbin0charm2016_6	  = -0.00456515	 +/-  0.154736	(limited)
+qcdparam_ptbin0mjjbin0charm2016_7	  = -0.004294	 +/-  0.157324	(limited)
+qcdparam_ptbin0mjjbin0charm2016_8	  = -0.00426395	 +/-  0.159909	(limited)
+qcdparam_ptbin0mjjbin0charm2016_9	  = 0.0515975	 +/-  0.15837	(limited)
+tf_MCtempl_charm2016_pt_par0_rho_par0	  = 1	 +/-  0.489525	(limited)
+Fitted qcd for category charm
+Extracting ...  c_pass_ggF_nominal
+Extracting ...  c_pass_QCD_nominal
+Extracting ...  c_fail_ggF_nominal
+Extracting ...  c_fail_QCD_nominal
+Extracting ...  c_fail_QCD_nominal
+Initial poly shape:  (6,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x+ [5]*x*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0charmpass2016__norm is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin20 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_charm2016_pt_par0_rho_par0 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin20 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin9 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin9 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin15 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin15 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin8 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin8 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p570 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin18 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p847 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin18 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin13 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin13 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin7 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin7 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin6 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin6 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p491 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin11 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin11 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin16 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin16 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin5 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin5 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin4 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin4 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p397 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin14 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin14 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p754 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin3 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin3 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin2 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin2 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p282 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin10 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin10 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p639 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin12 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin12 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p700 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin1 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin1 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin19 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p868 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin19 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin0 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin0 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p134 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin21 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p908 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin21 is duplicated
+Object ptbin0mjjbin0charmpass2016_qcd_bin17 is duplicated
+Object tf_dataResidual_2016charm_eval_pt0p300_rho0p825 is duplicated
+Object tf_MCtempl_charm2016_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0charmfail2016_qcd_bin17 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0charmfail2016__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2016/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 11.4925
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Polynomial order: 0
+Polynomial order: 1
+Polynomial order: 2
+Polynomial order: 3
+Polynomial order: 4
+Polynomial order: 5
+Submitting job(s).
+1 job(s) submitted to cluster 78392413.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392414.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392415.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392416.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392417.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392418.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392419.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392420.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392421.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392422.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392423.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392424.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392425.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392426.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392427.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392428.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392429.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392430.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392431.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392432.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392433.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392434.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392435.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392436.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392437.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392438.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392439.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392440.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392441.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392442.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392443.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392444.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392445.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392446.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392447.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392448.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392449.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392450.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392451.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392452.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392453.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392454.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392455.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392456.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392457.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392458.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392459.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392460.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392461.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392462.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+('Polynomial order: ', 0)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/charm-mc/2016/
+Submitting poly0_0
+Submitting poly0_1
+Submitting poly0_2
+Submitting poly0_3
+Submitting poly0_4
+Submitting poly0_5
+Submitting poly0_6
+Submitting poly0_7
+Submitting poly0_8
+Submitting poly0_9
+Submitting poly0_10
+Submitting poly0_11
+Submitting poly0_12
+Submitting poly0_13
+Submitting poly0_14
+Submitting poly0_15
+Submitting poly0_16
+Submitting poly0_17
+Submitting poly0_18
+Submitting poly0_19
+Submitting poly0_20
+Submitting poly0_21
+Submitting poly0_22
+Submitting poly0_23
+Submitting poly0_24
+Submitting poly0_25
+Submitting poly0_26
+Submitting poly0_27
+Submitting poly0_28
+Submitting poly0_29
+Submitting poly0_30
+Submitting poly0_31
+Submitting poly0_32
+Submitting poly0_33
+Submitting poly0_34
+Submitting poly0_35
+Submitting poly0_36
+Submitting poly0_37
+Submitting poly0_38
+Submitting poly0_39
+Submitting poly0_40
+Submitting poly0_41
+Submitting poly0_42
+Submitting poly0_43
+Submitting poly0_44
+Submitting poly0_45
+Submitting poly0_46
+Submitting poly0_47
+Submitting poly0_48
+Submitting poly0_49
+Submitting job(s).
+1 job(s) submitted to cluster 78392463.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392464.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392465.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392466.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392467.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392468.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392469.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392470.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392471.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392472.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392473.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392474.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392475.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392476.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392477.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392478.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392479.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392480.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392481.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392482.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392483.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392484.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392485.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392486.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392487.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392488.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392489.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392490.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392491.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392492.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392493.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392494.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392495.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392496.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392497.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392498.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392499.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392500.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392501.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392502.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392503.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392504.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392505.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392506.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392507.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392508.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392509.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392510.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392511.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392512.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+('Polynomial order: ', 1)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/charm-mc/2016/
+Submitting poly1_0
+Submitting poly1_1
+Submitting poly1_2
+Submitting poly1_3
+Submitting poly1_4
+Submitting poly1_5
+Submitting poly1_6
+Submitting poly1_7
+Submitting poly1_8
+Submitting poly1_9
+Submitting poly1_10
+Submitting poly1_11
+Submitting poly1_12
+Submitting poly1_13
+Submitting poly1_14
+Submitting poly1_15
+Submitting poly1_16
+Submitting poly1_17
+Submitting poly1_18
+Submitting poly1_19
+Submitting poly1_20
+Submitting poly1_21
+Submitting poly1_22
+Submitting poly1_23
+Submitting poly1_24
+Submitting poly1_25
+Submitting poly1_26
+Submitting poly1_27
+Submitting poly1_28
+Submitting poly1_29
+Submitting poly1_30
+Submitting poly1_31
+Submitting poly1_32
+Submitting poly1_33
+Submitting poly1_34
+Submitting poly1_35
+Submitting poly1_36
+Submitting poly1_37
+Submitting poly1_38
+Submitting poly1_39
+Submitting poly1_40
+Submitting poly1_41
+Submitting poly1_42
+Submitting poly1_43
+Submitting poly1_44
+Submitting poly1_45
+Submitting poly1_46
+Submitting poly1_47
+Submitting poly1_48
+Submitting poly1_49
+Submitting job(s).
+1 job(s) submitted to cluster 78392513.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392514.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392515.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392516.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392517.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392518.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392519.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392520.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392521.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392522.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392523.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392524.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392525.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392526.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392527.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392528.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392529.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392530.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392531.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392532.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392533.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392534.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392535.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392536.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392537.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392538.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392539.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392540.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392541.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392542.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392543.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392544.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392545.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392546.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392547.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392548.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392549.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392550.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392551.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392552.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392553.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392554.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392555.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392556.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392557.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392558.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392559.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392560.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392561.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392562.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+('Polynomial order: ', 2)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/charm-mc/2016/
+Submitting poly2_0
+Submitting poly2_1
+Submitting poly2_2
+Submitting poly2_3
+Submitting poly2_4
+Submitting poly2_5
+Submitting poly2_6
+Submitting poly2_7
+Submitting poly2_8
+Submitting poly2_9
+Submitting poly2_10
+Submitting poly2_11
+Submitting poly2_12
+Submitting poly2_13
+Submitting poly2_14
+Submitting poly2_15
+Submitting poly2_16
+Submitting poly2_17
+Submitting poly2_18
+Submitting poly2_19
+Submitting poly2_20
+Submitting poly2_21
+Submitting poly2_22
+Submitting poly2_23
+Submitting poly2_24
+Submitting poly2_25
+Submitting poly2_26
+Submitting poly2_27
+Submitting poly2_28
+Submitting poly2_29
+Submitting poly2_30
+Submitting poly2_31
+Submitting poly2_32
+Submitting poly2_33
+Submitting poly2_34
+Submitting poly2_35
+Submitting poly2_36
+Submitting poly2_37
+Submitting poly2_38
+Submitting poly2_39
+Submitting poly2_40
+Submitting poly2_41
+Submitting poly2_42
+Submitting poly2_43
+Submitting poly2_44
+Submitting poly2_45
+Submitting poly2_46
+Submitting poly2_47
+Submitting poly2_48
+Submitting poly2_49
+Submitting job(s).
+1 job(s) submitted to cluster 78392563.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392564.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392565.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392566.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392567.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392568.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392569.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392570.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392571.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392572.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392573.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392574.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392575.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392576.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392577.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392578.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392579.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392580.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392581.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392582.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392583.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392584.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392585.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392586.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392587.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392588.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392589.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392590.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392591.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392592.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392593.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392594.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392595.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392596.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392597.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392598.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392599.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392600.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392601.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392602.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392603.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392604.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392605.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392606.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392607.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392608.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392609.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392610.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392611.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 78392612.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd3.fnal.gov
+
+('Polynomial order: ', 3)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/charm-mc/2016/
+Submitting poly3_0
+Submitting poly3_1
+Submitting poly3_2
+Submitting poly3_3
+Submitting poly3_4
+Submitting poly3_5
+Submitting poly3_6
+Submitting poly3_7
+Submitting poly3_8
+Submitting poly3_9
+Submitting poly3_10
+Submitting poly3_11
+Submitting poly3_12
+Submitting poly3_13
+Submitting poly3_14
+Submitting poly3_15
+Submitting poly3_16
+Submitting poly3_17
+Submitting poly3_18
+Submitting poly3_19
+Submitting poly3_20
+Submitting poly3_21
+Submitting poly3_22
+Submitting poly3_23
+Submitting poly3_24
+Submitting poly3_25
+Submitting poly3_26
+Submitting poly3_27
+Submitting poly3_28
+Submitting poly3_29
+Submitting poly3_30
+Submitting poly3_31
+Submitting poly3_32
+Submitting poly3_33
+Submitting poly3_34
+Submitting poly3_35
+Submitting poly3_36
+Submitting poly3_37
+Submitting poly3_38
+Submitting poly3_39
+Submitting poly3_40
+Submitting poly3_41
+Submitting poly3_42
+Submitting poly3_43
+Submitting poly3_44
+Submitting poly3_45
+Submitting poly3_46
+Submitting poly3_47
+Submitting poly3_48
+Submitting poly3_49

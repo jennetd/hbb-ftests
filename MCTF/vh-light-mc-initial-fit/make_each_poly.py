@@ -13,7 +13,7 @@ if __name__ == '__main__':
     elif "2018" in thisdir:
         year = "2018"
 
-    for poly in range(0,5):
+    for poly in range(0,6):
 
             print("Polynomial order: {}".format(poly))
 

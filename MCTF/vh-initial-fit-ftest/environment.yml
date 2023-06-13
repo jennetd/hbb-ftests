@@ -1,0 +1,11 @@
+name: vh_ftest
+dependencies:
+  - python=3.8
+  - pip
+  - root
+  - pip:
+    - scipy
+    - numpy
+    - matplotlib
+    - mplhep
+    - lmfit

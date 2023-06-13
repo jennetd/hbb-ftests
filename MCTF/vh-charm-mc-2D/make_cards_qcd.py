@@ -89,11 +89,9 @@ def fit_fail_templ_QCD(sName, passed, ptbin, cat, obs, syst, muon=False):
     print("Initial fit function is : ", tf_string)
 
     fit_function = ROOT.TF1("fa1", tf_string, 40,200)
-    h.Fit(fit_function, "Q")
+    h.Fit(fit_function, "Q0")
 
     par = fit_function.GetParameters()
-    print('fit results: ', par)
-
     fit_result = h.GetFunction("fa1")
     
     #error band
@@ -127,18 +125,18 @@ def fit_fail_templ_QCD(sName, passed, ptbin, cat, obs, syst, muon=False):
         sumw += [fitted_qcd]
         sumw2 += [fit_error.GetBinError(i)*fit_error.GetBinError(i)]
 
-    print("PLOTTTING ...")
-    os.system('mkdir -p ../plots/')
-    plt.errorbar(msd, y_value_og, yerr=y_err_og, fmt='_', label='Bin value')
-    plt.plot(msd, y_value,label= 'Fitted values')
-    plt.plot([],[],'none',label=tf_string)
-    plt.plot([],[],'none',label=r'$\chi^2={}$'.format(round(fit_function.GetChisquare(),2)))
-    plt.fill_between(msd, np.asarray(y_value) - np.asarray(y_err), np.asarray(y_value) + np.asarray(y_err), alpha=0.2, label='95% CL', color='C1')
-    plt.xlabel(r' Jet 1 $m_{sd}$')
-    plt.ylabel('Events')
-    plt.legend()
-    plt.savefig("../plots/{}_{}_{}.pdf".format(year,name,initial_vals_poly.shape[0] - 1))
-    plt.close()
+    # print("PLOTTTING ...")
+    # os.system('mkdir -p ../plots/')
+    # plt.errorbar(msd, y_value_og, yerr=y_err_og, fmt='_', label='Bin value')
+    # plt.plot(msd, y_value,label= 'Fitted values')
+    # plt.plot([],[],'none',label=tf_string)
+    # plt.plot([],[],'none',label=r'$\chi^2={}$'.format(round(fit_function.GetChisquare(),2)))
+    # plt.fill_between(msd, np.asarray(y_value) - np.asarray(y_err), np.asarray(y_value) + np.asarray(y_err), alpha=0.2, label='95% CL', color='C1')
+    # plt.xlabel(r' Jet 1 $m_{sd}$')
+    # plt.ylabel('Events')
+    # plt.legend()
+    # plt.savefig("../plots/{}_{}_{}.pdf".format(year,name,initial_vals_poly.shape[0] - 1))
+    # plt.close()
 
     return (np.array(sumw)[1:], obs.binning, obs.name, np.array(sumw2)[1:])
 
@@ -182,11 +180,9 @@ def get_initial_QCD(sName, passed, ptbin, cat, obs, syst, muon=False):
     print("Initial fit function is : ", tf_string)
 
     fit_function = ROOT.TF1("fa1", tf_string, 40,200)
-    h.Fit(fit_function, "Q")
+    h.Fit(fit_function, "Q0")
 
     par = fit_function.GetParameters()
-    print('fit results: ', par)
-
     fit_result = h.GetFunction("fa1")
     
     #error band
@@ -232,24 +228,24 @@ def vh_rhalphabet(tmpdir,
 
     # define bins    
     ptbins = {}
-    ptbins['light'] = np.array([450,1200])
+    ptbins['charm'] = np.array([450,1200])
 
     npt = {}
-    npt['light'] = len(ptbins['light']) - 1
+    npt['charm'] = len(ptbins['charm']) - 1
 
 
     mjjbins = {}
-    mjjbins['light'] = np.array([0,13000])
+    mjjbins['charm'] = np.array([0,13000])
 
     nmjj = {}
-    nmjj['light'] = len(mjjbins['light']) - 1
+    nmjj['charm'] = len(mjjbins['charm']) - 1
 
     msdbins = np.linspace(40, 201, 23)
     msd = rl.Observable('msd', msdbins)
 
     validbins = {}
 
-    cats = ['light']
+    cats = ['charm']
     ncat = len(cats)
 
     # Build qcd MC pass+fail model and fit to polynomial
@@ -330,9 +326,7 @@ def vh_rhalphabet(tmpdir,
             qcdfit_ws = ROOT.RooWorkspace('w')
 
             simpdf, obs = qcdmodel.renderRoofit(qcdfit_ws)
-            
-            #Set the observed data 
-            qcdfit = simpdf.fitTo(obs, 
+            qcdfit = simpdf.fitTo(obs,
                                   ROOT.RooFit.Extended(True),
                                   ROOT.RooFit.SumW2Error(True),
                                   ROOT.RooFit.Strategy(2),

@@ -330,9 +330,7 @@ def vh_rhalphabet(tmpdir,
             qcdfit_ws = ROOT.RooWorkspace('w')
 
             simpdf, obs = qcdmodel.renderRoofit(qcdfit_ws)
-            
-            #Set the observed data 
-            qcdfit = simpdf.fitTo(obs, 
+            qcdfit = simpdf.fitTo(obs,
                                   ROOT.RooFit.Extended(True),
                                   ROOT.RooFit.SumW2Error(True),
                                   ROOT.RooFit.Strategy(2),

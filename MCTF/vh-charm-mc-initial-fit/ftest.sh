@@ -1,5 +1,6 @@
 poly=$1
 
+rm poly${poly}_vs_poly$((${poly}+1))
 mkdir poly${poly}_vs_poly$((${poly}+1))
 cd poly${poly}_vs_poly$((${poly}+1))
 

@@ -1,0 +1,2274 @@
+The current path of this script is: /uscms_data/d3/dhoang/VH_analysis/CMSSW_10_2_13/src/hbb-ftests/MCTF/vh-light-mc-initial-fit
+Running for 2018
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (1,)
+Initial fit function is :  [0]
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  l_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0019294910828681535
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -795631.346274
+[#0] ERROR:InputArguments -- ptbin0mjjbin0lightpass2018: calculated negative expected events: -72.8269
+MnSeedGenerator: Initial state:   - FCN =   -795631.346274 Edm =     0.266891 NCalls =    139
+MnSeedGenerator: run Hesse - new state:   - FCN =   -795631.346274 Edm =     0.266861 NCalls =    495
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =   -795631.346274 Edm =     0.266861 NCalls =    495
+VariableMetric: Iteration #   0 - FCN =   -795631.346274 Edm =     0.266861 NCalls =    495
+VariableMetric: Iteration #   1 - FCN =  -795631.6129288 Edm =  8.34015e-06 NCalls =    542
+VariableMetric: After Hessian   - FCN =  -795631.6129288 Edm =  6.62792e-07 NCalls =    990
+VariableMetric: Iteration #   2 - FCN =  -795631.6129288 Edm =  6.62792e-07 NCalls =    990
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -795631.612928768271
+Edm   = 6.62791929266980739e-07
+Nfcn  = 990
+qcdparam_ptbin0mjjbin0light2018_0	  = 0.0380296	 +/-  0.105539	(limited)
+qcdparam_ptbin0mjjbin0light2018_1	  = 0.0371919	 +/-  0.105544	(limited)
+qcdparam_ptbin0mjjbin0light2018_10	  = -0.00509461	 +/-  0.105796	(limited)
+qcdparam_ptbin0mjjbin0light2018_11	  = -0.00389272	 +/-  0.105789	(limited)
+qcdparam_ptbin0mjjbin0light2018_12	  = -0.0105385	 +/-  0.105829	(limited)
+qcdparam_ptbin0mjjbin0light2018_13	  = -0.0128258	 +/-  0.105842	(limited)
+qcdparam_ptbin0mjjbin0light2018_14	  = -0.00972049	 +/-  0.105824	(limited)
+qcdparam_ptbin0mjjbin0light2018_15	  = -0.00225492	 +/-  0.105779	(limited)
+qcdparam_ptbin0mjjbin0light2018_16	  = -0.0161687	 +/-  0.105862	(limited)
+qcdparam_ptbin0mjjbin0light2018_17	  = -0.0118433	 +/-  0.105836	(limited)
+qcdparam_ptbin0mjjbin0light2018_18	  = -0.0108179	 +/-  0.10583	(limited)
+qcdparam_ptbin0mjjbin0light2018_19	  = -0.0117106	 +/-  0.105836	(limited)
+qcdparam_ptbin0mjjbin0light2018_2	  = 0.00921818	 +/-  0.105711	(limited)
+qcdparam_ptbin0mjjbin0light2018_20	  = -0.0155706	 +/-  0.105859	(limited)
+qcdparam_ptbin0mjjbin0light2018_21	  = -0.0154148	 +/-  0.105858	(limited)
+qcdparam_ptbin0mjjbin0light2018_3	  = 0.0262778	 +/-  0.105609	(limited)
+qcdparam_ptbin0mjjbin0light2018_4	  = 0.00501823	 +/-  0.105736	(limited)
+qcdparam_ptbin0mjjbin0light2018_5	  = 0.0257955	 +/-  0.105612	(limited)
+qcdparam_ptbin0mjjbin0light2018_6	  = -0.000318682	 +/-  0.105767	(limited)
+qcdparam_ptbin0mjjbin0light2018_7	  = 8.80194e-05	 +/-  0.105765	(limited)
+qcdparam_ptbin0mjjbin0light2018_8	  = -0.00676718	 +/-  0.105806	(limited)
+qcdparam_ptbin0mjjbin0light2018_9	  = -0.00874501	 +/-  0.105818	(limited)
+tf_MCtempl_light2018_pt_par0_rho_par0	  = 1	 +/-  0.0580757	(limited)
+Fitted qcd for category light
+Extracting ...  l_pass_ggF_nominal
+Extracting ...  l_pass_QCD_nominal
+Extracting ...  l_fail_ggF_nominal
+Extracting ...  l_fail_QCD_nominal
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (1,)
+Initial fit function is :  [0]
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0lightpass2018__norm is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin20 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_light2018_pt_par0_rho_par0 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin20 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin9 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin9 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin15 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin15 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin8 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin8 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p570 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin18 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p847 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin18 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin13 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin13 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin7 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin7 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin6 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin6 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p491 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin11 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin11 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin16 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin16 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin5 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin5 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin4 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin4 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p397 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin14 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin14 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p754 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin3 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin3 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin2 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin2 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p282 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin10 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin10 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p639 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin12 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin12 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p700 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin1 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin1 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin19 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p868 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin19 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin0 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin0 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p134 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin21 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p908 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin21 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin17 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p825 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin17 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0lightfail2018__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2018/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 83.2486
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2018
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (2,)
+Initial fit function is :  [0]+ [1]*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  l_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0015463370045865684
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -1056678.807552
+[#0] ERROR:InputArguments -- ptbin0mjjbin0lightpass2018: calculated negative expected events: -129.254
+MnSeedGenerator: Initial state:   - FCN =  -1056678.807552 Edm =    0.0721955 NCalls =    139
+MnSeedGenerator: run Hesse - new state:   - FCN =  -1056678.807552 Edm =    0.0716991 NCalls =    495
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -1056678.807552 Edm =    0.0716991 NCalls =    495
+VariableMetric: Iteration #   0 - FCN =  -1056678.807552 Edm =    0.0716991 NCalls =    495
+VariableMetric: Iteration #   1 - FCN =  -1056678.879224 Edm =  1.11416e-05 NCalls =    542
+VariableMetric: After Hessian   - FCN =  -1056678.879224 Edm =   1.5415e-08 NCalls =   1004
+VariableMetric: Iteration #   2 - FCN =  -1056678.879224 Edm =   1.5415e-08 NCalls =   1004
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1056678.87922416488
+Edm   = 1.54149679726263427e-08
+Nfcn  = 1004
+qcdparam_ptbin0mjjbin0light2018_0	  = 0.0167852	 +/-  0.10385	(limited)
+qcdparam_ptbin0mjjbin0light2018_1	  = 0.0174107	 +/-  0.103928	(limited)
+qcdparam_ptbin0mjjbin0light2018_10	  = -0.00498716	 +/-  0.105118	(limited)
+qcdparam_ptbin0mjjbin0light2018_11	  = -0.0029813	 +/-  0.105292	(limited)
+qcdparam_ptbin0mjjbin0light2018_12	  = -0.00823385	 +/-  0.105528	(limited)
+qcdparam_ptbin0mjjbin0light2018_13	  = -0.00965906	 +/-  0.105771	(limited)
+qcdparam_ptbin0mjjbin0light2018_14	  = -0.00565489	 +/-  0.106013	(limited)
+qcdparam_ptbin0mjjbin0light2018_15	  = 0.00352259	 +/-  0.106259	(limited)
+qcdparam_ptbin0mjjbin0light2018_16	  = -0.0109725	 +/-  0.106713	(limited)
+qcdparam_ptbin0mjjbin0light2018_17	  = -0.00486299	 +/-  0.107097	(limited)
+qcdparam_ptbin0mjjbin0light2018_18	  = -0.00224502	 +/-  0.107595	(limited)
+qcdparam_ptbin0mjjbin0light2018_19	  = -0.00197979	 +/-  0.108244	(limited)
+qcdparam_ptbin0mjjbin0light2018_2	  = -0.000786812	 +/-  0.104091	(limited)
+qcdparam_ptbin0mjjbin0light2018_20	  = -0.0065151	 +/-  0.109141	(limited)
+qcdparam_ptbin0mjjbin0light2018_21	  = -0.00490296	 +/-  0.110319	(limited)
+qcdparam_ptbin0mjjbin0light2018_3	  = 0.0122003	 +/-  0.10413	(limited)
+qcdparam_ptbin0mjjbin0light2018_4	  = -0.00211576	 +/-  0.104292	(limited)
+qcdparam_ptbin0mjjbin0light2018_5	  = 0.0142994	 +/-  0.104327	(limited)
+qcdparam_ptbin0mjjbin0light2018_6	  = -0.00446711	 +/-  0.104529	(limited)
+qcdparam_ptbin0mjjbin0light2018_7	  = -0.00331124	 +/-  0.104651	(limited)
+qcdparam_ptbin0mjjbin0light2018_8	  = -0.00801799	 +/-  0.104813	(limited)
+qcdparam_ptbin0mjjbin0light2018_9	  = -0.00892595	 +/-  0.10497	(limited)
+tf_MCtempl_light2018_pt_par0_rho_par0	  = 1	 +/-  0.0580607	(limited)
+Fitted qcd for category light
+Extracting ...  l_pass_ggF_nominal
+Extracting ...  l_pass_QCD_nominal
+Extracting ...  l_fail_ggF_nominal
+Extracting ...  l_fail_QCD_nominal
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (2,)
+Initial fit function is :  [0]+ [1]*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0lightpass2018__norm is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin0 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_light2018_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin0 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin10 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin10 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin11 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin11 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin20 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin20 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin9 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin9 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin19 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin19 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin18 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin18 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin7 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin7 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin6 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin6 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin21 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin21 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin16 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin16 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin5 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin5 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin8 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin8 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin4 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin4 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin14 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin14 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin17 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin17 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin3 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin3 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin2 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin2 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin15 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin15 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin12 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin12 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin1 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin1 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin13 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin13 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0lightfail2018__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2018/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 83.2486
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2018
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (3,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  l_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0015580947648214845
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -1049283.957652
+[#0] ERROR:InputArguments -- ptbin0mjjbin0lightpass2018: calculated negative expected events: -127.759
+MnSeedGenerator: Initial state:   - FCN =  -1049283.957652 Edm =    0.0595551 NCalls =    139
+MnSeedGenerator: run Hesse - new state:   - FCN =  -1049283.957652 Edm =    0.0590397 NCalls =    493
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -1049283.957652 Edm =    0.0590397 NCalls =    493
+VariableMetric: Iteration #   0 - FCN =  -1049283.957652 Edm =    0.0590397 NCalls =    493
+VariableMetric: Iteration #   1 - FCN =  -1049284.016669 Edm =   1.1327e-05 NCalls =    540
+VariableMetric: After Hessian   - FCN =  -1049284.016669 Edm =   9.8965e-09 NCalls =   1002
+VariableMetric: Iteration #   2 - FCN =  -1049284.016669 Edm =   9.8965e-09 NCalls =   1002
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1049284.01666944288
+Edm   = 9.89650397620012112e-09
+Nfcn  = 1002
+qcdparam_ptbin0mjjbin0light2018_0	  = 0.0132212	 +/-  0.103637	(limited)
+qcdparam_ptbin0mjjbin0light2018_1	  = 0.0145767	 +/-  0.103757	(limited)
+qcdparam_ptbin0mjjbin0light2018_10	  = -0.00365799	 +/-  0.105405	(limited)
+qcdparam_ptbin0mjjbin0light2018_11	  = -0.00138997	 +/-  0.105626	(limited)
+qcdparam_ptbin0mjjbin0light2018_12	  = -0.00697444	 +/-  0.105909	(limited)
+qcdparam_ptbin0mjjbin0light2018_13	  = -0.0085418	 +/-  0.106182	(limited)
+qcdparam_ptbin0mjjbin0light2018_14	  = -0.00433488	 +/-  0.106431	(limited)
+qcdparam_ptbin0mjjbin0light2018_15	  = 0.00528082	 +/-  0.106651	(limited)
+qcdparam_ptbin0mjjbin0light2018_16	  = -0.0104424	 +/-  0.107056	(limited)
+qcdparam_ptbin0mjjbin0light2018_17	  = -0.00441145	 +/-  0.107312	(limited)
+qcdparam_ptbin0mjjbin0light2018_18	  = -0.00233041	 +/-  0.107593	(limited)
+qcdparam_ptbin0mjjbin0light2018_19	  = -0.00286237	 +/-  0.107888	(limited)
+qcdparam_ptbin0mjjbin0light2018_2	  = -0.00222903	 +/-  0.103957	(limited)
+qcdparam_ptbin0mjjbin0light2018_20	  = -0.00783144	 +/-  0.108203	(limited)
+qcdparam_ptbin0mjjbin0light2018_21	  = -0.00725471	 +/-  0.108444	(limited)
+qcdparam_ptbin0mjjbin0light2018_3	  = 0.0109665	 +/-  0.104045	(limited)
+qcdparam_ptbin0mjjbin0light2018_4	  = -0.00257222	 +/-  0.104254	(limited)
+qcdparam_ptbin0mjjbin0light2018_5	  = 0.0143228	 +/-  0.10434	(limited)
+qcdparam_ptbin0mjjbin0light2018_6	  = -0.00414135	 +/-  0.104597	(limited)
+qcdparam_ptbin0mjjbin0light2018_7	  = -0.00262592	 +/-  0.104773	(limited)
+qcdparam_ptbin0mjjbin0light2018_8	  = -0.00722257	 +/-  0.104993	(limited)
+qcdparam_ptbin0mjjbin0light2018_9	  = -0.00797768	 +/-  0.105206	(limited)
+tf_MCtempl_light2018_pt_par0_rho_par0	  = 1	 +/-  0.0580611	(limited)
+Fitted qcd for category light
+Extracting ...  l_pass_ggF_nominal
+Extracting ...  l_pass_QCD_nominal
+Extracting ...  l_fail_ggF_nominal
+Extracting ...  l_fail_QCD_nominal
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (3,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0lightpass2018__norm is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin0 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_light2018_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin0 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin10 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin10 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin11 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin11 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin20 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin20 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin9 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin9 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin19 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin19 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin18 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin18 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin7 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin7 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin6 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin6 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin21 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin21 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin16 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin16 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin5 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin5 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin8 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin8 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin4 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin4 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin14 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin14 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin17 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin17 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin3 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin3 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin2 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin2 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin15 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin15 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin12 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin12 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin1 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin1 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin13 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin13 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0lightfail2018__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2018/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 83.2487
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2018
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (4,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  l_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0015669606223010894
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -1041629.726542
+[#0] ERROR:InputArguments -- ptbin0mjjbin0lightpass2018: calculated negative expected events: -126.206
+MnSeedGenerator: Initial state:   - FCN =  -1041629.726542 Edm =    0.0591525 NCalls =    139
+MnSeedGenerator: run Hesse - new state:   - FCN =  -1041629.726542 Edm =    0.0586267 NCalls =    491
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -1041629.726542 Edm =    0.0586267 NCalls =    491
+VariableMetric: Iteration #   0 - FCN =  -1041629.726542 Edm =    0.0586267 NCalls =    491
+VariableMetric: Iteration #   1 - FCN =  -1041629.785144 Edm =  1.19586e-05 NCalls =    538
+VariableMetric: After Hessian   - FCN =  -1041629.785144 Edm =  1.18211e-08 NCalls =    998
+VariableMetric: Iteration #   2 - FCN =  -1041629.785144 Edm =  1.18211e-08 NCalls =    998
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1041629.78514445724
+Edm   = 1.18211255602842455e-08
+Nfcn  = 998
+qcdparam_ptbin0mjjbin0light2018_0	  = 0.0119635	 +/-  0.103568	(limited)
+qcdparam_ptbin0mjjbin0light2018_1	  = 0.0140384	 +/-  0.10373	(limited)
+qcdparam_ptbin0mjjbin0light2018_10	  = -0.00341924	 +/-  0.105471	(limited)
+qcdparam_ptbin0mjjbin0light2018_11	  = -0.0013896	 +/-  0.105643	(limited)
+qcdparam_ptbin0mjjbin0light2018_12	  = -0.00721012	 +/-  0.105864	(limited)
+qcdparam_ptbin0mjjbin0light2018_13	  = -0.00895212	 +/-  0.106066	(limited)
+qcdparam_ptbin0mjjbin0light2018_14	  = -0.00503801	 +/-  0.106242	(limited)
+qcdparam_ptbin0mjjbin0light2018_15	  = 0.00402391	 +/-  0.106399	(limited)
+qcdparam_ptbin0mjjbin0light2018_16	  = -0.0110739	 +/-  0.106744	(limited)
+qcdparam_ptbin0mjjbin0light2018_17	  = -0.00529415	 +/-  0.106988	(limited)
+qcdparam_ptbin0mjjbin0light2018_18	  = -0.0031197	 +/-  0.107318	(limited)
+qcdparam_ptbin0mjjbin0light2018_19	  = -0.00322075	 +/-  0.107759	(limited)
+qcdparam_ptbin0mjjbin0light2018_2	  = -0.00220273	 +/-  0.103972	(limited)
+qcdparam_ptbin0mjjbin0light2018_20	  = -0.00762214	 +/-  0.108389	(limited)
+qcdparam_ptbin0mjjbin0light2018_21	  = -0.00626155	 +/-  0.109233	(limited)
+qcdparam_ptbin0mjjbin0light2018_3	  = 0.0115117	 +/-  0.104096	(limited)
+qcdparam_ptbin0mjjbin0light2018_4	  = -0.00197397	 +/-  0.104339	(limited)
+qcdparam_ptbin0mjjbin0light2018_5	  = 0.0155187	 +/-  0.104446	(limited)
+qcdparam_ptbin0mjjbin0light2018_6	  = -0.00339379	 +/-  0.104723	(limited)
+qcdparam_ptbin0mjjbin0light2018_7	  = -0.00186656	 +/-  0.104904	(limited)
+qcdparam_ptbin0mjjbin0light2018_8	  = -0.00669613	 +/-  0.105117	(limited)
+qcdparam_ptbin0mjjbin0light2018_9	  = -0.00761567	 +/-  0.105309	(limited)
+tf_MCtempl_light2018_pt_par0_rho_par0	  = 1	 +/-  0.0580614	(limited)
+Fitted qcd for category light
+Extracting ...  l_pass_ggF_nominal
+Extracting ...  l_pass_QCD_nominal
+Extracting ...  l_fail_ggF_nominal
+Extracting ...  l_fail_QCD_nominal
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (4,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0lightpass2018__norm is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin0 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin0 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_light2018_pt_par0_rho_par0 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin10 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin10 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p639 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin11 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin11 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin20 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p888 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin20 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin9 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin9 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin8 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin8 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p570 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin18 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p847 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin18 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin7 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin7 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin6 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin6 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p491 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin21 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p908 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin21 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin16 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin16 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin5 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin5 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin19 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p868 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin19 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin4 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin4 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p397 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin14 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin14 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin17 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p825 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin17 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin3 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin3 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin2 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin2 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p282 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin15 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin15 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin12 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin12 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin1 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin1 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin13 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p727 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin13 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0lightfail2018__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2018/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 83.2486
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Running for 2018
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (5,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+PLOTTTING ...
+Extracting ...  l_pass_QCD_nominal
+Inclusive P/F from Monte Carlo = 0.0015737357263134394
+Initial fit values read from file initial_vals*
+Initial values: [[1]]
+Minuit2Minimizer: Minimize with max-calls 11500 convergence for edm < 1 strategy 2
+MnSeedGenerator: for initial parameters FCN = -1035935.651463
+[#0] ERROR:InputArguments -- ptbin0mjjbin0lightpass2018: calculated negative expected events: -125.047
+MnSeedGenerator: Initial state:   - FCN =  -1035935.651463 Edm =     0.061431 NCalls =    139
+MnSeedGenerator: run Hesse - new state:   - FCN =  -1035935.651463 Edm =    0.0609133 NCalls =    493
+VariableMetric: start iterating until Edm is < 0.001
+VariableMetric: Initial state   - FCN =  -1035935.651463 Edm =    0.0609133 NCalls =    493
+VariableMetric: Iteration #   0 - FCN =  -1035935.651463 Edm =    0.0609133 NCalls =    493
+VariableMetric: Iteration #   1 - FCN =  -1035935.712354 Edm =  1.06712e-05 NCalls =    540
+VariableMetric: After Hessian   - FCN =  -1035935.712354 Edm =  1.09826e-08 NCalls =   1000
+VariableMetric: Iteration #   2 - FCN =  -1035935.712354 Edm =  1.09826e-08 NCalls =   1000
+Minuit2Minimizer : Valid minimum - status = 0
+FVAL  = -1035935.7123541187
+Edm   = 1.09826228499620816e-08
+Nfcn  = 1000
+qcdparam_ptbin0mjjbin0light2018_0	  = 0.011588	 +/-  0.103551	(limited)
+qcdparam_ptbin0mjjbin0light2018_1	  = 0.0142581	 +/-  0.10375	(limited)
+qcdparam_ptbin0mjjbin0light2018_10	  = -0.00391612	 +/-  0.105383	(limited)
+qcdparam_ptbin0mjjbin0light2018_11	  = -0.00195711	 +/-  0.105543	(limited)
+qcdparam_ptbin0mjjbin0light2018_12	  = -0.0076196	 +/-  0.105765	(limited)
+qcdparam_ptbin0mjjbin0light2018_13	  = -0.00923735	 +/-  0.105989	(limited)
+qcdparam_ptbin0mjjbin0light2018_14	  = -0.00521002	 +/-  0.106208	(limited)
+qcdparam_ptbin0mjjbin0light2018_15	  = 0.00410026	 +/-  0.106426	(limited)
+qcdparam_ptbin0mjjbin0light2018_16	  = -0.0109285	 +/-  0.10685	(limited)
+qcdparam_ptbin0mjjbin0light2018_17	  = -0.00487421	 +/-  0.107171	(limited)
+qcdparam_ptbin0mjjbin0light2018_18	  = -0.00253877	 +/-  0.107554	(limited)
+qcdparam_ptbin0mjjbin0light2018_19	  = -0.0027576	 +/-  0.107976	(limited)
+qcdparam_ptbin0mjjbin0light2018_2	  = -0.00182634	 +/-  0.104019	(limited)
+qcdparam_ptbin0mjjbin0light2018_20	  = -0.00762698	 +/-  0.108416	(limited)
+qcdparam_ptbin0mjjbin0light2018_21	  = -0.00697332	 +/-  0.108716	(limited)
+qcdparam_ptbin0mjjbin0light2018_3	  = 0.0122034	 +/-  0.104156	(limited)
+qcdparam_ptbin0mjjbin0light2018_4	  = -0.00153209	 +/-  0.104403	(limited)
+qcdparam_ptbin0mjjbin0light2018_5	  = 0.0160534	 +/-  0.104496	(limited)
+qcdparam_ptbin0mjjbin0light2018_6	  = -0.00326863	 +/-  0.104753	(limited)
+qcdparam_ptbin0mjjbin0light2018_7	  = -0.00193567	 +/-  0.104904	(limited)
+qcdparam_ptbin0mjjbin0light2018_8	  = -0.00692661	 +/-  0.105084	(limited)
+qcdparam_ptbin0mjjbin0light2018_9	  = -0.0079629	 +/-  0.105244	(limited)
+tf_MCtempl_light2018_pt_par0_rho_par0	  = 1	 +/-  0.0580616	(limited)
+Fitted qcd for category light
+Extracting ...  l_pass_ggF_nominal
+Extracting ...  l_pass_QCD_nominal
+Extracting ...  l_fail_ggF_nominal
+Extracting ...  l_fail_QCD_nominal
+Extracting ...  l_fail_QCD_nominal
+Initial poly shape:  (5,)
+Initial fit function is :  [0]+ [1]*x+ [2]*x*x+ [3]*x*x*x+ [4]*x*x*x*x
+fit results:  <Double_t buffer, size 2147483647>
+Object shapeBkg_qcd_ptbin0mjjbin0lightpass2018__norm is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin0 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p134 is duplicated
+Object tf_MCtempl_light2018_pt_par0_rho_par0 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin0 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p134 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin10 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin10 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p639 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin11 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin11 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p670 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p670 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin20 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p888 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p888 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin20 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin9 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin9 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p606 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p606 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin19 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p868 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p868 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin19 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin18 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p847 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p847 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin18 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin7 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin7 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p532 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p532 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin6 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin6 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p491 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin21 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p908 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p908 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin21 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin16 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p803 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p803 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin16 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin5 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin5 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p446 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p446 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin8 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin8 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p570 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin4 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin4 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p397 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin14 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin14 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p754 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin17 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p825 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p825 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin17 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin3 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin3 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p343 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p343 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin2 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin2 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p282 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin15 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin15 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p779 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p779 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin12 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin12 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p700 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin1 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin1 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p214 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p214 is duplicated
+Object ptbin0mjjbin0lightpass2018_qcd_bin13 is duplicated
+Object ptbin0mjjbin0lightfail2018_qcd_bin13 is duplicated
+Object tf_MCtempl_light2018_eval_pt0p300_rho0p727 is duplicated
+Object tf_dataResidual_2018light_eval_pt0p300_rho0p727 is duplicated
+Object shapeBkg_qcd_ptbin0mjjbin0lightfail2018__norm is duplicated
+ <<< Combine >>> 
+   Options for Robust Minimizer :: 
+        Tolerance  0.1
+        Strategy   0
+        Type,Algo  Minuit2,Migrad
+>>> method used is MultiDimFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- MultiDimFit ---
+best fit parameter values: 
+   r :    +0.000
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --saveWorkspace --setParameters r=0 --freezeParameters r --robustFit=1 --cminDefaultMinimizerStrategy 0 -M MultiDimFit -m 125 -d output/testModel_2018/model_combined.root -n Snapshot
+ <<< Combine >>> 
+Will use saturated models to compute goodness of fit for a binned likelihood
+>>> method used is GoodnessOfFit
+>>> random number generator seed is 123456
+Set Default Value of Parameter r To : 0
+
+ --- GoodnessOfFit --- 
+Best fit test statistic: 83.2488
+Done in 0.00 min (cpu), 0.00 min (real)
+>> combine --snapshotName MultiDimFit --bypassFrequentistFit --setParameters r=0 --freezeParameters r --algo saturated --cminDefaultMinimizerStrategy 0 -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root -n Observed
+Polynomial order: 0
+Polynomial order: 1
+Polynomial order: 2
+Polynomial order: 3
+Polynomial order: 4
+Submitting job(s).
+1 job(s) submitted to cluster 32135384.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135385.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135386.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135387.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135388.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135389.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135390.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135391.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135392.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135393.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135394.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135395.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135396.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135397.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135398.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135399.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135400.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135401.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135402.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135403.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135404.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135405.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135406.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135407.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135408.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135409.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135410.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135411.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135412.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135413.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135414.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135415.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135416.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135417.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135418.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135419.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135420.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135421.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135422.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135423.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135424.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135425.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135426.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135427.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135428.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135429.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135430.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135431.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135432.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135433.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+('Polynomial order: ', 0)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/light-mc/2018/
+Submitting poly0_0
+Submitting poly0_1
+Submitting poly0_2
+Submitting poly0_3
+Submitting poly0_4
+Submitting poly0_5
+Submitting poly0_6
+Submitting poly0_7
+Submitting poly0_8
+Submitting poly0_9
+Submitting poly0_10
+Submitting poly0_11
+Submitting poly0_12
+Submitting poly0_13
+Submitting poly0_14
+Submitting poly0_15
+Submitting poly0_16
+Submitting poly0_17
+Submitting poly0_18
+Submitting poly0_19
+Submitting poly0_20
+Submitting poly0_21
+Submitting poly0_22
+Submitting poly0_23
+Submitting poly0_24
+Submitting poly0_25
+Submitting poly0_26
+Submitting poly0_27
+Submitting poly0_28
+Submitting poly0_29
+Submitting poly0_30
+Submitting poly0_31
+Submitting poly0_32
+Submitting poly0_33
+Submitting poly0_34
+Submitting poly0_35
+Submitting poly0_36
+Submitting poly0_37
+Submitting poly0_38
+Submitting poly0_39
+Submitting poly0_40
+Submitting poly0_41
+Submitting poly0_42
+Submitting poly0_43
+Submitting poly0_44
+Submitting poly0_45
+Submitting poly0_46
+Submitting poly0_47
+Submitting poly0_48
+Submitting poly0_49
+Submitting job(s).
+1 job(s) submitted to cluster 32135434.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135435.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135436.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135437.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135438.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135439.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135440.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135441.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135442.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135443.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135444.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135445.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135446.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135447.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135448.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135449.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135450.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135451.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135452.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135453.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135454.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135455.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135456.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135457.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135458.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135459.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135460.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135461.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135462.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135463.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135464.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135465.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135466.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135467.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135468.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135469.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135470.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135471.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135472.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135473.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135474.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135475.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135476.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135477.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135478.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135479.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135480.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135481.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135482.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135483.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+('Polynomial order: ', 1)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/light-mc/2018/
+Submitting poly1_0
+Submitting poly1_1
+Submitting poly1_2
+Submitting poly1_3
+Submitting poly1_4
+Submitting poly1_5
+Submitting poly1_6
+Submitting poly1_7
+Submitting poly1_8
+Submitting poly1_9
+Submitting poly1_10
+Submitting poly1_11
+Submitting poly1_12
+Submitting poly1_13
+Submitting poly1_14
+Submitting poly1_15
+Submitting poly1_16
+Submitting poly1_17
+Submitting poly1_18
+Submitting poly1_19
+Submitting poly1_20
+Submitting poly1_21
+Submitting poly1_22
+Submitting poly1_23
+Submitting poly1_24
+Submitting poly1_25
+Submitting poly1_26
+Submitting poly1_27
+Submitting poly1_28
+Submitting poly1_29
+Submitting poly1_30
+Submitting poly1_31
+Submitting poly1_32
+Submitting poly1_33
+Submitting poly1_34
+Submitting poly1_35
+Submitting poly1_36
+Submitting poly1_37
+Submitting poly1_38
+Submitting poly1_39
+Submitting poly1_40
+Submitting poly1_41
+Submitting poly1_42
+Submitting poly1_43
+Submitting poly1_44
+Submitting poly1_45
+Submitting poly1_46
+Submitting poly1_47
+Submitting poly1_48
+Submitting poly1_49
+Submitting job(s).
+1 job(s) submitted to cluster 32135484.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135485.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135486.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135487.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135488.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135489.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135490.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135491.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135492.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135493.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135494.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135495.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135496.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135497.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135498.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135499.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135500.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135501.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135502.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135503.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135504.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135505.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135506.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135507.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135508.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135509.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135510.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135511.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135512.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135513.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135514.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135515.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135516.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135517.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135518.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135519.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135520.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135521.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135522.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135523.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135524.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135525.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135526.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135527.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135528.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135529.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135530.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135531.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135532.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135533.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+('Polynomial order: ', 2)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/light-mc/2018/
+Submitting poly2_0
+Submitting poly2_1
+Submitting poly2_2
+Submitting poly2_3
+Submitting poly2_4
+Submitting poly2_5
+Submitting poly2_6
+Submitting poly2_7
+Submitting poly2_8
+Submitting poly2_9
+Submitting poly2_10
+Submitting poly2_11
+Submitting poly2_12
+Submitting poly2_13
+Submitting poly2_14
+Submitting poly2_15
+Submitting poly2_16
+Submitting poly2_17
+Submitting poly2_18
+Submitting poly2_19
+Submitting poly2_20
+Submitting poly2_21
+Submitting poly2_22
+Submitting poly2_23
+Submitting poly2_24
+Submitting poly2_25
+Submitting poly2_26
+Submitting poly2_27
+Submitting poly2_28
+Submitting poly2_29
+Submitting poly2_30
+Submitting poly2_31
+Submitting poly2_32
+Submitting poly2_33
+Submitting poly2_34
+Submitting poly2_35
+Submitting poly2_36
+Submitting poly2_37
+Submitting poly2_38
+Submitting poly2_39
+Submitting poly2_40
+Submitting poly2_41
+Submitting poly2_42
+Submitting poly2_43
+Submitting poly2_44
+Submitting poly2_45
+Submitting poly2_46
+Submitting poly2_47
+Submitting poly2_48
+Submitting poly2_49
+Submitting job(s).
+1 job(s) submitted to cluster 32135534.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135535.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135536.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135537.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135538.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135539.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135540.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135541.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135542.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135543.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135544.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135545.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135546.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135547.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135548.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135549.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135550.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135551.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135552.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135553.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135554.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135555.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135556.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135557.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135558.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135559.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135560.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135561.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135562.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135563.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135564.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135565.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135566.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135567.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135568.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135569.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135570.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135571.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135572.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135573.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135574.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135575.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135576.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135577.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135578.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135579.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135580.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135581.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135582.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+Submitting job(s).
+1 job(s) submitted to cluster 32135583.
+Querying the CMS LPC pool and trying to find an available schedd...
+
+Attempting to submit jobs to lpcschedd5.fnal.gov
+
+('Polynomial order: ', 3)
+CONDOR work dir: /store/user/dhoang/f-tests/hbb-f-tests-pf/initial-fit/light-mc/2018/
+Submitting poly3_0
+Submitting poly3_1
+Submitting poly3_2
+Submitting poly3_3
+Submitting poly3_4
+Submitting poly3_5
+Submitting poly3_6
+Submitting poly3_7
+Submitting poly3_8
+Submitting poly3_9
+Submitting poly3_10
+Submitting poly3_11
+Submitting poly3_12
+Submitting poly3_13
+Submitting poly3_14
+Submitting poly3_15
+Submitting poly3_16
+Submitting poly3_17
+Submitting poly3_18
+Submitting poly3_19
+Submitting poly3_20
+Submitting poly3_21
+Submitting poly3_22
+Submitting poly3_23
+Submitting poly3_24
+Submitting poly3_25
+Submitting poly3_26
+Submitting poly3_27
+Submitting poly3_28
+Submitting poly3_29
+Submitting poly3_30
+Submitting poly3_31
+Submitting poly3_32
+Submitting poly3_33
+Submitting poly3_34
+Submitting poly3_35
+Submitting poly3_36
+Submitting poly3_37
+Submitting poly3_38
+Submitting poly3_39
+Submitting poly3_40
+Submitting poly3_41
+Submitting poly3_42
+Submitting poly3_43
+Submitting poly3_44
+Submitting poly3_45
+Submitting poly3_46
+Submitting poly3_47
+Submitting poly3_48
+Submitting poly3_49
