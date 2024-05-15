@@ -3,7 +3,7 @@
 executable              = run-ftest.sh
 arguments               = SUBMITARGS
 should_transfer_files   = YES
-transfer_input_files    = TRANSFERFILES
+transfer_input_files    = TRANSFERFILES,/uscms/home/jennetd/nobackup/hbb-prod-modes/vbf-nano-2024/combine-conda/combine.tar.gz
 when_to_transfer_output = ON_EXIT_OR_EVICT
 request_memory          = 2000
 #use_x509userproxy       = true
