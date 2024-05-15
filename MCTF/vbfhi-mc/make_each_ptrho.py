@@ -24,7 +24,7 @@ if __name__ == '__main__':
                 os.mkdir(thedir)
             os.chdir(thedir)
 
-            linkdir="/uscms/home/jennetd/nobackup/hbb-prod-modes/CMSSW_10_2_13/src/vbf-ul/main-vbf/unblinding/"
+            linkdir="/uscms/home/jennetd/nobackup/hbb-prod-modes/vbf-nano-2024/fits/hbb-unblind-ewkz/"
 
             os.system("ln -s "+linkdir+year+"/signalregion.root .")
             os.system("ln -s ../../make_cards_qcd.py .")
@@ -49,13 +49,13 @@ if __name__ == '__main__':
             os.chdir("../../")
 
             # Run the first fit
-            combine_cmd = "combineTool.py -M MultiDimFit -m 125 -d output/testModel_"+year+"/model_combined.root --saveWorkspace \
+            combine_cmd = "combine -M MultiDimFit -m 125 -d output/testModel_"+year+"/model_combined.root --saveWorkspace \
             --setParameters r=0 --freezeParameters r -n \"Snapshot\" \
             --robustFit=1 --cminDefaultMinimizerStrategy 0"
             os.system(combine_cmd)
 
             # Run the goodness of fit
-            combine_cmd = "combineTool.py -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root \
+            combine_cmd = "combine -M GoodnessOfFit -m 125 -d higgsCombineSnapshot.MultiDimFit.mH125.root \
             --snapshotName MultiDimFit --bypassFrequentistFit \
             --setParameters r=0 --freezeParameters r \
             -n \"Observed\" --algo \"saturated\" \
